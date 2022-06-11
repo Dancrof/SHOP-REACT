@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/*======================= GENERAL =====================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  
+  /*== GENERAL ==*/
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  --primario: #056676;
+  --color-general: #9AE66E;
+  --color-titulos: #68e023;
+  --color-background: #68e023;
+  --colo-background-hover: #3E7C17;
+  
+  /*== footer==*/
+--min-width-280px-title-footer: 280px;
+--max-width-400px-title-footer: 400px;
+--color-text1-footer: #c7c7c7;
+--color-text2-footer: #fff;
+}
+
+/*======================= DISEÑO DEL SCROLL =====================================*/
+::-webkit-scrollbar{
+  width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+   background: var(--color-general);
+   border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+      background: var(--colo-background-hover);
+  }
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
